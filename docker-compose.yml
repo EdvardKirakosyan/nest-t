@@ -6,7 +6,7 @@ services:
       - 5432:5432
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: 222
+      POSTGRES_PASSWORD: 2273
       POSTGRES_DB: test-DB-nest-t
     networks:
       - freecodecamp
