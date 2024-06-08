@@ -3,11 +3,11 @@ services:
   dev-db:
     image: postgres:16
     ports:
-      - 5434:5432
+      - 5432:5432
     environment:
       POSTGRES_USER: postgres
-      PASSWORD: 123
-      POSTGRES_DB: nest
+      POSTGRES_PASSWORD: 222
+      POSTGRES_DB: test-DB-nest-t
     networks:
       - freecodecamp
 networks:
