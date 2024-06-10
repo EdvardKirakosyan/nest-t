@@ -53,7 +53,7 @@ export class AuthService {
   async sighnToken(
     userId: number,
     email: string,
-  ): Promise<{ access_token: string; }> {
+  ): Promise<{ access_token: string }> {
     const payload = {
       sub: userId,
       email,

@@ -1,0 +1,4 @@
+{
+  "typescript.format.semicolons": "ignore",
+  "javascript.format.semicolons": "ignore"
+}
